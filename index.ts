@@ -1,10 +1,7 @@
-const foobar: string = '5';
-const bar: string = 'apples';
+import { Test } from './test';
 
-log(foobar);
-log(foobar);
-log(bar);
-log(foobar);
+const foobar = '5';
+const bar = 'apples';
 
 /**
  * Logs a string.
@@ -18,3 +15,10 @@ function log(str: string): void {
 }
 
 log(foobar);
+log(foobar);
+log(foobar);
+log(bar);
+log(foobar);
+
+const test: Test = new Test();
+test.doSomething();
